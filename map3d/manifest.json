@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2.0,
+    "id": "map3d",
+    "name": "3D Map",
+    "version": "1.0.0",
+    "namespace": "Map3D",
+    "author": "Syntrix Systems",
+    "description": "Renders Zabbix network maps as an interactive 3D scene (bar height = problem severity). Works on Zabbix 6.0, 7.0 and 8.0.",
+    "actions": {
+        "threedmap.view": {
+            "class": "Map3DView",
+            "view": "threedmap.view"
+        },
+        "threedmap.data": {
+            "class": "Map3DData",
+            "layout": "layout.json"
+        }
+    },
+    "assets": {
+        "css": ["map3d.css"],
+        "js": ["map3d.js"]
+    }
+}

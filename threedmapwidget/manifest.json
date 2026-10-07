@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2.0,
+    "id": "threedmapwidget",
+    "type": "widget",
+    "name": "3D Map",
+    "namespace": "ThreeDMapWidget",
+    "version": "1.0.0",
+    "author": "threedmap",
+    "description": "Dashboard widget that renders a Zabbix network map as an interactive 3D scene.",
+    "actions": {
+        "widget.threedmapwidget.view": {
+            "class": "WidgetView"
+        }
+    },
+    "widget": {
+        "js_class": "WidgetThreeDMap"
+    },
+    "assets": {
+        "css": ["widget.css"],
+        "js": ["scene.js", "class.widget.js"]
+    }
+}
