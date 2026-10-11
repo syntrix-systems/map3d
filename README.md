@@ -59,7 +59,7 @@ A full-page viewer and a dashboard widget. No external libraries, works fully of
 - The user needs the **Monitoring → Maps** UI element permission in their user role.
 
 <!-- Fill in the versions you have personally tested, for example: "Tested on Zabbix 7.0.x" -->
-> **Tested on:** _add your tested Zabbix versions here_
+> **Tested on:** Zabbix v6, v7 and v8
 
 ## Installation
 
